@@ -24,6 +24,9 @@ const HomeScreen = props => {
     <Button 
     onPress = {() => props.navigation.navigate('Square')}
     title = "Go to the square screen"/>
+    <Button 
+    onPress = {() => props.navigation.navigate('Password')}
+    title = "Go to the password screen"/>
     </View>);
 };
 
